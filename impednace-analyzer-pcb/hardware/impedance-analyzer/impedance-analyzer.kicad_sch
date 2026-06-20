@@ -2026,6 +2026,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -2634,6 +2789,18 @@
 		(uuid "39efa8df-4e38-404f-89dc-83baba510b1a")
 	)
 	(rectangle
+		(start 85.09 125.73)
+		(end 143.51 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "67cb2586-0ca5-407e-a5ae-6979d24b6f08")
+	)
+	(rectangle
 		(start 12.7 11.43)
 		(end 124.46 64.77)
 		(stroke
@@ -2710,6 +2877,16 @@
 			)
 		)
 		(uuid "223bd6eb-a045-4583-b0ef-2daaccc9a2cf")
+	)
+	(text "Decoupling Caps"
+		(exclude_from_sim no)
+		(at 95.25 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46a1593f-816c-4c6f-ae7b-638e7e3c5863")
 	)
 	(text "Arduino_UNO\n"
 		(exclude_from_sim no)
@@ -3692,7 +3869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 59.69 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3871,7 +4048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4017,6 +4194,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 104.14 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c8a0c78-47cc-4cc2-800e-9132e9b901fa")
+		(property "Reference" "C1"
+			(at 107.95 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 107.95 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 105.1052 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "135fdbbd-bafa-436b-bce5-1c3b402158ae")
+		)
+		(pin "1"
+			(uuid "0570af2b-1ab5-42d7-b65d-8bc4ec5b9dd4")
+		)
+		(instances
+			(project "impedance-analyzer"
+				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 109.22 270)
 		(unit 1)
@@ -4129,7 +4388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 58.42 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4369,7 +4628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 162.56 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4473,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
 			(at 212.09 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4637,6 +4896,84 @@
 			(project "impedance-analyzer"
 				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8b3cec-b08b-438e-9c6f-2d09da8e4fdd")
+		(property "Reference" "#PWR011"
+			(at 118.11 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cb489e9-14be-49c7-a576-cc68b7bc8f99")
+		)
+		(instances
+			(project "impedance-analyzer"
+				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4834,7 +5171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -4913,6 +5250,84 @@
 			(project "impedance-analyzer"
 				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 104.14 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c92d65a-047b-4ad7-9b55-55ead1584b4c")
+		(property "Reference" "#PWR021"
+			(at 104.14 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.14 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 104.14 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e124aed-eccc-449f-add3-8e921a9b8da2")
+		)
+		(instances
+			(project "impedance-analyzer"
+				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 156.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5171,6 +5586,84 @@
 			(project "impedance-analyzer"
 				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b2a366b-ff4c-4349-a0f3-6bf019ee3c6d")
+		(property "Reference" "#PWR010"
+			(at 104.14 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f884fc4d-1515-4d07-9f9c-1a6e5787669c")
+		)
+		(instances
+			(project "impedance-analyzer"
+				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5289,7 +5782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5350,6 +5843,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 118.11 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb636e3-10ec-496a-8ea7-b9c4105c62b2")
+		(property "Reference" "C2"
+			(at 121.92 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 121.92 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 119.0752 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be21d141-4aeb-449f-acc8-b46b58670e58")
+		)
+		(pin "2"
+			(uuid "ef3a743c-c7d8-4ccc-b8c9-f4c8aec153e7")
+		)
+		(instances
+			(project "impedance-analyzer"
+				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
 		(at 71.12 40.64 0)
 		(unit 1)
@@ -5383,7 +5958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
 			(at 71.12 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5677,6 +6252,84 @@
 			(project "impedance-analyzer"
 				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db023f5c-9926-4cf5-a320-12840108b5d8")
+		(property "Reference" "#PWR022"
+			(at 118.11 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07ec8977-7d2e-4e75-8f3d-fb2251e7bf74")
+		)
+		(instances
+			(project "impedance-analyzer"
+				(path "/259d1f59-b563-4094-a7dc-8c16a7d2f7ef"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

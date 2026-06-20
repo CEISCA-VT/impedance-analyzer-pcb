@@ -2798,13 +2798,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d2ee17b2-34fb-4129-b148-bf58bd9f1ab5")
-		(at 231.59 60.21)
+		(at 136.3 89.81)
 		(descr "Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x07 2.54mm single row")
 		(property "Reference" "J1"
 			(at 0 -2.77 0)
 			(layer "F.SilkS")
-			(uuid "b1bcf89f-a48e-4927-9a72-e25ea08632d2")
+			(uuid "bb9cda60-8b1b-409c-9886-2d1ee82417fc")
 			(effects
 				(font
 					(size 1 1)
@@ -2815,7 +2815,7 @@
 		(property "Value" "AD9833"
 			(at 0 18.01 0)
 			(layer "F.Fab")
-			(uuid "2bfb4e12-6890-4901-a6fa-bb5e3a8984d4")
+			(uuid "51607b97-d42c-429b-bdb3-f85cd6e3bbe3")
 			(effects
 				(font
 					(size 1 1)
@@ -2827,7 +2827,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a025e72-03f3-4063-87c6-3ee391adf0ba")
+			(uuid "2153d7b9-c23f-4015-949d-7e43cacdd88d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2838,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e42d851d-8627-44a4-af18-027b229598f4")
+			(uuid "4f5f26af-c90b-4c0d-bc0b-72185c4d8959")
 			(effects
 				(font
 					(size 1.27 1.27)
